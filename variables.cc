@@ -3,20 +3,20 @@ using namespace std;
 
 int main() {
 
-	int numberCats = 956;
-	int numberDogs = 868;
-	int numberAnimals = numberCats + numberDogs;
+	int numberOfCats = 956;
+	int numberOfDogs = 868;
+	int numberOfAnimals = numberOfCats + numberOfDogs;
 
-	cout << "Number of cats: " << numberCats << endl;
-	cout << "Number of dogs: " << numberDogs << endl;
+	cout << "Number of cats: " << numberOfCats << endl;
+	cout << "Number of dogs: " << numberOfDogs << endl;
 
-	cout << "Total number of animals: " << numberAnimals << endl;
+	cout << "Total number of animals: " << numberOfAnimals << endl;
 
 	cout << "UPDATE: New dog acquired." << endl;
 
-	numberDogs = numberDogs + 1;
+	numberOfDogs = numberOfDogs + 1;
 
-	cout << "New number of dogs: " << numberDogs << endl;
+	cout << "New number of dogs: " << numberOfDogs << endl;
 
 	return 0;
 }
