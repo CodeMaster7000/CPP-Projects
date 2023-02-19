@@ -22,6 +22,5 @@ int main() {
 
 	unsigned int uValue = 234234;
 	cout << uValue << endl;
-
 	return 0;
 }
