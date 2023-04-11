@@ -6,12 +6,10 @@ void f(double x)
     func = ; //Enter function here
     cout << "Function output: " << func << endl;
 }
-int main()
-{
+int main() {
     double number;
     string repeat;
-    do
-    {
+    do {
         cout << "Input a number: ";
         cin >> number;
         f(number);
